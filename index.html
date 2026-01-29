@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DadPrints | Turning coffee into plastic, layer by layer.</title>
+  <meta name="description" content="DadPrints: 3D prints, designs, and experiments. Turning coffee into plastic, layer by layer." />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <a class="logo" href="#top" aria-label="DadPrints home">
+        <div class="mark">DP</div>
+        <div>
+          <div class="logo-title">DadPrints</div>
+          <div class="logo-sub">3D prints, designs, and experiments</div>
+        </div>
+      </a>
+
+      <nav>
+        <a href="#what">What I make</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top" class="hero">
+      <div>
+        <h1>DadPrints</h1>
+        <p class="tag">Turning coffee into plastic, layer by layer.</p>
+
+        <div class="pillrow">
+          <span class="pill">🖨️ 3D Printing</span>
+          <span class="pill">🧩 Designs</span>
+          <span class="pill">🛠️ Fixes & gadgets</span>
+          <span class="pill">🎁 Gifts for kids</span>
+        </div>
+
+        <div class="cta">
+          <a class="btn primary" href="https://instagram.com/DadPrints" target="_blank" rel="noreferrer">
+            Follow on Instagram
+          </a>
+          <a class="btn" href="#contact">Request a print</a>
+        </div>
+
+        <p class="note">
+          This site is a placeholder for now. More chaos, builds, and prints coming soon.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Currently printing</h3>
+        <p>
+          Projects range from useful fixes to totally unnecessary masterpieces. If you have an idea, send it over.
+        </p>
+
+        <div class="grid">
+          <div class="card mini">
+            <h3>Designs</h3>
+            <p>CAD experiments, remixes, and originals.</p>
+          </div>
+          <div class="card mini">
+            <h3>Prints</h3>
+            <p>Functional parts, toys, and gifts.</p>
+          </div>
+          <div class="card mini">
+            <h3>Fails</h3>
+            <p>Because the first layer builds character.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section id="what">
+      <div class="card">
+        <h3>What I make</h3>
+        <p>
+          Random ideas, practical fixes, and fun prints for the family, plus design work when inspiration hits.
+          If you want something custom, shoot me a message.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="card">
+        <h3>Contact</h3>
+        <p>
+          Email: <span class="mono">hello@dadprints3d.com</span><br />
+          Instagram: <span class="mono">@DadPrints</span>
+        </p>
+
+        <div class="cta" style="margin-top:12px;">
+          <a class="btn" href="mailto:hello@dadprints3d.com">Email me</a>
+          <a class="btn" href="https://instagram.com/DadPrints" target="_blank" rel="noreferrer">DM on Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div>© <span id="year"></span> DadPrints</div>
+      <div class="mono">Turning coffee into plastic, layer by layer.</div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
